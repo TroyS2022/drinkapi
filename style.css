@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+div{
+  display: flexbox;
+}
+.centerApp {
+  text-align: center;
+  justify-content: center;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /*padding-top:30%;*/
+  margin-top: 10%;
+}
+li{
+  list-style: none;
+}
+img {
+  background-color: white;
+  /*border: 2px solid blue;*/
+}
+.firstCircle {
+  margin-left: 43%;
+  background-color: blue;
+  width: 250px;
+  height:250px;
+  border-radius: 50%;
+}
+.removeNoIng {
+  display: none;
+}
+
+.colorChange {
+  color: aqua;
+}
+
+.removeBullet {
+  list-style: none;
+}
+
+/* Media Queries  Screen Size 600px*/
+@media(width <= 600px) {
+  h1{
+    color:red; 
+  }
+  body {
+    background-color: steelblue;
+  }
+}
+/* Media Queries  Screen Size 700px and Larger*/
+@media (width >= 700px){
+  body {
+    background: skyblue;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  
+}
